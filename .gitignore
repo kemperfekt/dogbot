@@ -2,3 +2,6 @@ dogbot-ui/
 dogbot-app/
 dogbot-agent/
 dogbot-ops/
+.DS_Store
+dogbot-app.zip
+dogbot-ops.zip

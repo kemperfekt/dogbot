@@ -1,40 +1,62 @@
-# DogBot
+# DogBot UI
 
-**DogBot** is an early-stage AI project that helps dog owners understand problematic behavior through instinct theory, emotional intelligence, and dialogue — powered by GPT-4 and retrieval-augmented generation (RAG).
-
-It is designed as an interactive coach that simulates the dog's perspective, asks meaningful questions, and helps humans reframe behavior with empathy. The system combines AI reasoning with structured data and behavior logic to support real change in human-canine relationships.
+This is the frontend interface for DogBot — an early-stage AI assistant that helps humans understand their dogs through empathic dialogue, grounded in instinct theory and behavioral patterns. Built with React, the UI simulates a direct, playful line of communication between human and dog.
 
 ---
 
-## Repository Structure
+## Concept
 
-This meta-repo provides an overview of the project components. Each folder listed here is a separate Git repository and not tracked by this meta-repo.
+DogBot acts as a translator between species. The interface lets users describe a problem ("Why does my dog bark at children?"), and the agent responds from the dog's perspective. The metaphor: the dog is speaking into a cup-and-string phone — and the human is listening.
 
-| Repository | Description |
-|------------|-------------|
-| [`dogbot-app`](https://github.com/kemperfekt/dogbot-app) | Core logic: CLI tool for agent behavior, Weaviate search, Pydantic models, agentic RAG |
-| [`dogbot-ui`](https://github.com/kemperfekt/dogbot-ui) | React frontend with slot-style UX simulating a dialogue between human and dog |
-| [`dogbot-agent`](https://github.com/kemperfekt/dogbot-agent) | Web-accessible backend (wrapper around `dogbot-app`) |
-| [`dogbot-ops`](https://github.com/kemperfekt/dogbot-ops) | Scripts for generating and managing structured knowledge (e.g., symptoms, behavior patterns) |
+The interaction is designed to:
+- Encourage curiosity, not control
+- Emphasize emotional tone over robotic precision
+- Create a non-judgmental space to explore behavior
 
 ---
 
-## Technologies Used
+## Screenshot
 
-- Python, Pydantic
-- OpenAI GPT-4 API
-- React (frontend)
-- Weaviate (vector search & RAG)
+![DogBot UI](./dogbot.png)
 
 ---
 
-## Current Status
+## Features
 
-DogBot is in development and not public. It is used as a personal research and prototyping environment for exploring emotionally intelligent AI, perspective-shifting interfaces, and real-world applications of agentic RAG.
+- Two-pane layout: human on the left, dog on the right
+- Animated slot-machine metaphor for human–dog pairs
+- One-click message submission via the “Wuff” button
+- Clear visual separation of user messages and agent responses
+- Designed for mobile and desktop
 
 ---
 
-## Author
+## Tech Stack
 
-Developed by [Philipp Kemper](https://github.com/kemperfekt), with a background in product strategy, cross-cultural teams, and behavior-first system design. This project draws on personal interest in dogs, group dynamics, and how communication shapes relationships — both human and machine.
+- React (Create React App base)
+- Styled with custom components (no framework)
+- Integrates with DogBot agent backend via local API
 
+---
+
+## Status
+
+This UI is under active development and currently runs locally. It's designed as part of a multi-repo project exploring emotionally intelligent LLM agents.
+
+---
+
+## Related Repositories
+
+- [dogbot-app](https://github.com/kemperfekt/dogbot-app) — CLI backend for agent logic and GPT interaction
+- [dogbot-agent](https://github.com/kemperfekt/dogbot-agent) — Web-accessible backend
+- [dogbot-ops](https://github.com/kemperfekt/dogbot-ops) — JSON data and generation scripts
+
+---
+
+## License
+
+To be defined.
+
+---
+
+*This project was created with GPT-4 — prompts engineered by a humble human.*
