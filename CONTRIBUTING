@@ -11,7 +11,6 @@ DogBot is currently organized into three repositories:
 ### 🚀 How to Contribute
 ## 1. Fork & Pull Request
 Fork the relevant repo
-
 Create a new branch (feature/xyz, fix/abc, etc.)
 Keep your code clean and well-documented
 Open a pull request with a short, clear description
