@@ -30,8 +30,7 @@ This meta-repo provides an overview of the project components. Each folder liste
 
 ## Current Status
 
-DogBot is in development and not public. It is used as a personal research and prototyping environment for exploring emotionally intelligent AI, perspective-shifting interfaces, and real-world applications of agentic RAG.
-
+DogBot is in development/ research phase.
 ---
 
 ## Author
