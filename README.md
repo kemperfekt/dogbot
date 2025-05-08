@@ -12,7 +12,6 @@ This meta-repo provides an overview of the project components. Each folder liste
 
 | Repository | Description |
 |------------|-------------|
-| [`dogbot-app`](https://github.com/kemperfekt/dogbot-app) | Core logic: CLI tool for agent behavior, Weaviate search, Pydantic models, agentic RAG |
 | [`dogbot-ui`](https://github.com/kemperfekt/dogbot-ui) | React frontend with slot-style UX simulating a dialogue between human and dog |
 | [`dogbot-agent`](https://github.com/kemperfekt/dogbot-agent) | Web-accessible backend (wrapper around `dogbot-app`) |
 | [`dogbot-ops`](https://github.com/kemperfekt/dogbot-ops) | Scripts for generating and managing structured knowledge (e.g., symptoms, behavior patterns) |
