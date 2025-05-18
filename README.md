@@ -15,6 +15,7 @@ This meta-repo provides an overview of the project components. Each folder liste
 | [`dogbot-ui`](https://github.com/kemperfekt/dogbot-ui) | React frontend targeted at mobile user interfaces |
 | [`dogbot-agent`](https://github.com/kemperfekt/dogbot-agent) | Web-accessible backend |
 | [`dogbot-ops`](https://github.com/kemperfekt/dogbot-ops) | Scripts for generating and managing structured knowledge (e.g., symptoms, behavior patterns) |
+| [`dogbot-www`](https://github.com/kemperfekt/dogbot-www) | Public-facing website including landing page, legal pages (Impressum, Datenschutz), and general project information |
 
 ---
 
@@ -24,12 +25,14 @@ This meta-repo provides an overview of the project components. Each folder liste
 - OpenAI GPT-4 API
 - React (frontend)
 - Weaviate (vector search & RAG)
+- Tailwind CSS (public website)
 
 ---
 
 ## Current Status
 
-DogBot is in research & development phases.
+DogBot is in development. It is used as a research and prototyping environment for exploring emotionally intelligent AI, perspective-shifting interfaces, and real-world applications of agentic RAG.
+
 ---
 
 ## Author
