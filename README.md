@@ -78,7 +78,7 @@ graph TB
 
 ```bash
 # Clone the meta repository
-git clone https://github.com/yourusername/dogbot.git
+git clone https://github.com/kemperfekt/dogbot.git
 cd dogbot
 
 # Start the backend
@@ -103,10 +103,10 @@ Visit `http://localhost:3000` to start chatting! 🎉
 
 | Repository | Purpose | Tech Stack | Status |
 |------------|---------|------------|--------|
-| **[dogbot-agent](./dogbot-agent)** | Backend API & AI Logic | FastAPI, GPT-4, Weaviate | ✅ Production |
-| **[dogbot-ui](./dogbot-ui)** | Chat Interface | React, Tailwind CSS | ✅ Production |
-| **[dogbot-ops](./dogbot-ops)** | Data & Schema Management | Python, Content-as-Code | ✅ Active |
-| **[dogbot-www](./dogbot-www)** | Landing Page | Static HTML, Tailwind | ✅ Live |
+| **[dogbot-agent](https://github.com/kemperfekt/dogbot-agent)** | Backend API & AI Logic | FastAPI, GPT-4, Weaviate | ✅ Production |
+| **[dogbot-ui](https://github.com/kemperfekt/dogbot-ui)** | Chat Interface | React, Tailwind CSS | ✅ Production |
+| **[dogbot-ops](https://github.com/kemperfekt/dogbot-ops)** | Data & Schema Management | Python, Content-as-Code | ✅ Active |
+| **[dogbot-www](https://github.com/kemperfekt/dogbot-www)** | Landing Page | Static HTML, Tailwind | ✅ Live |
 
 ## 🧠 How It Works
 
@@ -289,6 +289,6 @@ This dual naming allows us to maintain technical consistency while presenting a 
 
 <div align="center">
   
-  [Report Bug](https://github.com/yourusername/dogbot/issues) · [Request Feature](https://github.com/yourusername/dogbot/issues)
+  [Report Bug](https://github.com/kemperfekt/dogbot/issues) · [Request Feature](https://github.com/kemperfekt/dogbot/issues)
   
 </div>
