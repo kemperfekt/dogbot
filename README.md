@@ -1,7 +1,7 @@
 # 🐕 WuffChat (DogBot) - Understanding Your Dog's Perspective
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/yourusername/dogbot/main/.archive/dogbot.png" alt="WuffChat Logo" width="200"/>
+  <img src="https://github.com/kemperfekt/dogbot-ui/blob/main/src/assets/hund_icon.png" alt="WuffChat Logo" width="200"/>
   
   [![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)](https://fastapi.tiangolo.com)
   [![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org/)
@@ -266,15 +266,6 @@ We welcome contributions! Please see our [Contributing Guide](./CONTRIBUTING.md)
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## 📈 Roadmap
-
-- [ ] Multi-language support (currently German only)
-- [ ] Mobile apps (iOS/Android)
-- [ ] Voice interaction
-- [ ] Training video recommendations
-- [ ] Community features
-- [ ] Veterinarian integration
-
 ## 🛡️ Security & Privacy
 
 - All conversations are anonymous
@@ -286,12 +277,6 @@ We welcome contributions! Please see our [Contributing Guide](./CONTRIBUTING.md)
 
 This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
 
-## 🙏 Acknowledgments
-
-- OpenAI for GPT-4 API
-- Weaviate for vector search
-- The dog training community for invaluable insights
-- All the good boys and girls who inspired this project 🐕
 
 ## 📝 Naming Convention
 
@@ -303,8 +288,6 @@ This dual naming allows us to maintain technical consistency while presenting a 
 ---
 
 <div align="center">
-  
-  **Built with ❤️ for dogs and their humans**
   
   [Report Bug](https://github.com/yourusername/dogbot/issues) · [Request Feature](https://github.com/yourusername/dogbot/issues)
   
