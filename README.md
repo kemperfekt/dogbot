@@ -85,7 +85,7 @@ cd dogbot
 cd dogbot-agent
 pip install -r requirements.txt
 export OPENAI_API_KEY=your_key_here
-uvicorn src.v2.main:app --port 8000
+uvicorn src.main:app --port 8000
 
 # In a new terminal, start the frontend
 cd ../dogbot-ui
